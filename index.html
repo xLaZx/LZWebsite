@@ -1,11 +1,87 @@
-<!-- Sample HTML Structure -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #333;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .post-meta {
+            color: #888;
+            margin-bottom: 1rem;
+        }
+        .post-content {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    Testing Words
+
+<header>
+    <h1>My Blog</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="post">
+        <h2 class="post-title">Sample Blog Post Title</h2>
+        <p class="post-meta">Published on June 24, 2024 by John Doe</p>
+        <div class="post-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Vivamus non arcu tincidunt, tempus nunc in, pharetra lacus. Cras feugiat ex non nulla consectetur, non pretium est blandit.</p>
+            <p>Nulla facilisi. Sed nec velit nec orci convallis lacinia. Sed at lectus sit amet est elementum vehicula. Integer nec bibendum purus, at cursus magna. Quisque vehicula suscipit urna non tristique. Fusce cursus euismod magna, a vehicula ligula consequat a.</p>
+            <p>Curabitur et eros a sapien malesuada scelerisque. In hac habitasse platea dictumst. Vivamus et felis sed augue condimentum porttitor. Integer nec leo ligula. Duis scelerisque enim at ligula placerat, a posuere tortor auctor. Ut quis ante et nibh laoreet dapibus.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
